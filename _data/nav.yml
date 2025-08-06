@@ -1,0 +1,13 @@
+nav_title: lab
+docs:
+  - title: Introduction
+    url: about.html
+
+  - title: Group
+    url: group.html
+
+  - title: Projects
+    url: projects.html
+
+  - title: CV
+    url: CV.html

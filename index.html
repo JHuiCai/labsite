@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="nav">
+    <h2>{{ site.data.nav.navtitle }}</h2>
+    <ul>
+        {% for item in site.data.nav.docs %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+    /<div>
